@@ -1,53 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nepal Bags Store</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Himalayan Carry</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-    <h1>👜 Nepal Bags Store</h1>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">Contact</a>
-        <a href="#" id="cartBtn">Cart (<span id="cartCount">0</span>)</a>
-    </nav>
+  <h1>Himalayan Carry 🇳🇵</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">Our Story</a>
+    <a href="#">Cart (<span id="cart">0</span>)</a>
+  </nav>
 </header>
 
 <section class="hero">
-    <h2>Stylish Bags for Every Journey 🇳🇵</h2>
-    <p>Affordable | Durable | Trendy</p>
+  <h2>Carry the Spirit of Nepal</h2>
+  <p>Handcrafted | Durable | Premium</p>
+  <button>Shop Now</button>
 </section>
 
-<section class="products">
-    <div class="card">
-        <img src="https://via.placeholder.com/200" alt="Backpack">
-        <h3>Travel Backpack</h3>
-        <p>Rs. 2500</p>
-        <button onclick="addToCart()">Add to Cart</button>
-    </div>
+<section id="shop" class="products">
 
-    <div class="card">
-        <img src="https://via.placeholder.com/200" alt="Handbag">
-        <h3>Leather Handbag</h3>
-        <p>Rs. 3200</p>
-        <button onclick="addToCart()">Add to Cart</button>
-    </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519">
+    <h3>Himalayan Trek Bag</h3>
+    <p>Rs. 14,500</p>
+    <button onclick="addCart()">Add to Cart</button>
+  </div>
 
-    <div class="card">
-        <img src="https://via.placeholder.com/200" alt="School Bag">
-        <h3>School Bag</h3>
-        <p>Rs. 1800</p>
-        <button onclick="addToCart()">Add to Cart</button>
-    </div>
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1590874103328-eac38a683ce7">
+    <h3>Dhaka Style Backpack</h3>
+    <p>Rs. 9,200</p>
+    <button onclick="addCart()">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1581605405669-fcdf81165afa">
+    <h3>Luxury Travel Bag</h3>
+    <p>Rs. 18,000</p>
+    <button onclick="addCart()">Add to Cart</button>
+  </div>
+
+</section>
+
+<section id="about" class="about">
+  <h2>Our Story 🇳🇵</h2>
+  <p>
+    Inspired by the Himalayas, our bags are crafted with passion,
+    blending modern design with Nepali tradition.
+  </p>
 </section>
 
 <footer>
-    <p>© 2026 Nepal Bags Store | Made for Nepali Market 🇳🇵</p>
+  <p>© 2026 Himalayan Carry | Made in Nepal</p>
 </footer>
 
 <script src="script.js"></script>
